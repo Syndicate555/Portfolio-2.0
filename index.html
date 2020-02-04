@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/s.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
     <title>Saffat Aziz Portfolio</title>
 </head>
 
@@ -31,10 +33,8 @@
             <br>  
             <h1 class="heading-primary">
                 <span class="heading-primary--main" style="font-family:Georgia, 'Times New Roman', Times, serif">Saffat Aziz</span>
-                <span class="heading-primary--sub">FullStack Developer</span>
+                <span class="type" id="type" style="font-family:Verdana, Geneva, Tahoma, sans-serif"></span>
             </h1>
-            <br>
-            <br>
             <a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
             <br>
             <br>
@@ -415,7 +415,6 @@
                     <input type="submit" class="form-control submit" value="SEND MESSAGE">
 
                 </form>
-
             </div>
                 
         </section>
@@ -456,6 +455,8 @@
 
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script src="responsive.js"></script>
 
 <script>
     $('.smooth-goto').on('click', function () {
@@ -467,6 +468,26 @@
     $(document).ready(function(){
         $('.popup__img').css('visibility', 'visible');        
     })
+
+</script>
+<script src = "typed.js"></script>
+<script>
+    var typed = new Typed('.type', {
+        strings: [
+            'FullStack Developer^1000',
+            'Photographer^1000',
+            'Entrepreneur^1000',
+            'Freelancer^1000'
+        ],
+        typeSpeed: 40,
+        backSpeed: 40,
+        startDelay: 700,
+        showCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true,
+        loop: true,
+        loopCount: Infinity,
+    });
 </script>
 
 </html>

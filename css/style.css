@@ -68,16 +68,18 @@ input .form-control{
 }
 textarea .form-control{
 }
+@media only screen and (max-width: 480px) {
+  .form-control{
+      width:95%;
+  }
+  input, textarea {
+      width:75%;
+  }
+}
 
 
 form #contact-form{
   align-content: center;
-}
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-   .contact-form {
-    width: 100%;
-  }
 }
 
 #contact {

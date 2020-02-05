@@ -73,9 +73,12 @@ textarea .form-control{
 form #contact-form{
   align-content: center;
 }
-@media (max-width: 56.25em) {
-    .contact-form {
-      max-width: 50rem; } }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+   .contact-form {
+    width: 100%;
+  }
+}
 
 #contact {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../img/navyblue.jpg');;

@@ -670,8 +670,7 @@ body {
     url(../img/dollar.jpg);
 }
 .card__picture--6 {
-  background-image: linear-gradient(to right bottom, #000000, #000000),
-    url(../img/office-hall.jpg);
+  background: linear-gradient(to right bottom, #ffffff, #ffffff);
 }
 .card__picture--7 {
   background: linear-gradient(to right bottom, #ffffff, #ffffff);

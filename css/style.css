@@ -674,8 +674,7 @@ body {
     url(../img/office-hall.jpg);
 }
 .card__picture--7 {
-  background-image: linear-gradient(to right bottom, #ffffff, #ffffff),
-    url(../img/office-hall.jpg);
+  background: linear-gradient(to right bottom, #ffffff, #ffffff);
 }
 .card__heading {
   font-size: 2.8rem;

@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "",
+  "author": "Saffat Aziz",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.7.2"

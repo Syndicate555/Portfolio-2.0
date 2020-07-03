@@ -673,6 +673,15 @@ body {
 .card__side--back-6 {
   background-image: linear-gradient(to right bottom, #838383, #2e2e2e);
 }
+.card__side--back-7 {
+  background-image: linear-gradient(to right bottom, #838383, #2e2e2e);
+}
+.card__side--back-8 {
+  background-image: linear-gradient(to right bottom, #838383, #2e2e2e);
+}
+.card__side--back-9 {
+  background-image: linear-gradient(to right bottom, #f31e1e, #807e7e);
+}
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
 }
@@ -800,8 +809,8 @@ body {
 .card__heading-span--9 {
   background-image: linear-gradient(
     to right bottom,
-    rgba(131, 131, 131, 0.9),
-    rgba(46, 46, 46, 0.9)
+    rgb(68, 68, 67),
+    rgba(65, 231, 59, 0.9)
   );
 }
 .card__heading-span--10 {

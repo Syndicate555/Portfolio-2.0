@@ -712,6 +712,18 @@ body {
   background-image: linear-gradient(to right bottom, #396b2a, #1b2e21),
     url(../img/dollar.jpg);
 }
+.card__picture--8 {
+  background-image: linear-gradient(to right bottom, #577fd4, #1b2e21),
+    url(../img/meds.jpg);
+}
+.card__picture--9 {
+  background-image: linear-gradient(to right bottom, #396b2a, #1b2e21),
+    url(../img/dollar.jpg);
+}
+.card__picture--10 {
+  background-image: linear-gradient(to right bottom, #396b2a, #1b2e21),
+    url(../img/dollar.jpg);
+}
 .card__picture--6 {
   background: linear-gradient(to right bottom, #ffffff, #ffffff);
 }
@@ -772,6 +784,27 @@ body {
   );
 }
 .card__heading-span--6 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(131, 131, 131, 0.9),
+    rgba(46, 46, 46, 0.9)
+  );
+}
+.card__heading-span--8 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(63, 144, 236, 0.9),
+    rgba(46, 46, 46, 0.9)
+  );
+}
+.card__heading-span--9 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(131, 131, 131, 0.9),
+    rgba(46, 46, 46, 0.9)
+  );
+}
+.card__heading-span--10 {
   background-image: linear-gradient(
     to right bottom,
     rgba(131, 131, 131, 0.9),

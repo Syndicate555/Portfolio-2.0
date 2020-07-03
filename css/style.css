@@ -819,6 +819,13 @@ body {
     rgba(46, 46, 46, 0.9)
   );
 }
+.card__side--back-10 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(131, 131, 131, 0.9),
+    rgba(46, 46, 46, 0.9)
+  );
+}
 .card__details {
   padding: 1rem 3rem;
   color: darkslategrey;

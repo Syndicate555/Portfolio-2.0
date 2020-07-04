@@ -583,7 +583,7 @@ body {
 .composition__photo--p1 {
   left: 0;
   top: 0;
-  width: 35%;
+  width: 25%;
 }
 @media (max-width: 56.25em) {
   .composition__photo--p1 {
@@ -595,7 +595,7 @@ body {
 .composition__photo--p2 {
   left: 66%;
   top: 0;
-  width: 35%;
+  width: 25%;
 }
 @media (max-width: 56.25em) {
   .composition__photo--p2 {
@@ -608,7 +608,12 @@ body {
 .composition__photo--p3 {
   left: 33%;
   top: 50%;
-  width: 35%;
+  width: 25%;
+}
+.composition__photo--p4 {
+  left: 33%;
+  top: 50%;
+  width: 25%;
 }
 @media (max-width: 56.25em) {
   .composition__photo--p3 {

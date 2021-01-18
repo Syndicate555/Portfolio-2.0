@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/s.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <!-- <script type="text/javascript" src="particles.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <title>Saffat Aziz Portfolio</title>
+
+
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="particles-js">
         <div class="header__logo-box">
             <img src="./img/animate.gif"  class="header__logo">
         </div>
@@ -704,6 +708,11 @@
 
 </script>
 <script src = "typed.js"></script>
+<script>
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });</script>
 <script>
     var typed = new Typed('.type', {
         strings: [

@@ -684,6 +684,9 @@ body {
 .card__side--back-4 {
   background-image: linear-gradient(to right bottom, #6b330e, #978f1c);
 }
+.card__side--back-14 {
+  background-image: linear-gradient(to right bottom, #cac5c2, #971c8d);
+}
 .card__side--back-5 {
   background-image: linear-gradient(to right bottom, #396b2a, #1b2e21);
 }
@@ -754,6 +757,9 @@ body {
 }
 .card__picture--14 {
   background-image: linear-gradient(to right bottom, #505050, #b4b4b4);
+}
+.card__picture--18 {
+  background-image: linear-gradient(to right bottom, #353535, #d6298e);
 }
 .card__picture--6 {
   background: linear-gradient(to right bottom, #ffffff, #ffffff);

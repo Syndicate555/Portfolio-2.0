@@ -138,7 +138,7 @@ form #contact-form {
 
 #contact {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("../img/navyblue.jpg");
+    url('../img/navyblue.jpg');
   padding: 40px;
   color: #fff;
   padding-top: 10px;
@@ -300,7 +300,7 @@ form #contact-form {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
@@ -311,7 +311,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   background-clip: text;
   background-image: linear-gradient(
@@ -668,6 +668,13 @@ body {
     rgba(185, 19, 19, 0.911)
   );
 }
+.card__side--back-11 {
+  background-image: linear-gradient(
+    to right bottom,
+    #4d4d4d,
+    rgba(34, 61, 209, 0.911)
+  );
+}
 .card__side--back-2 {
   background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
 }
@@ -714,6 +721,9 @@ body {
       rgba(185, 19, 19, 0.911)
     ),
     url(../img/gears.png);
+}
+.card__picture--11 {
+  background-image: url(../img/stock.jpg);
 }
 .card__picture--2 {
   background-image: linear-gradient(to right bottom, #9c1283, #aa2b15),
@@ -771,6 +781,13 @@ body {
     to right bottom,
     rgba(236, 160, 38, 0.9),
     rgba(185, 19, 19, 0.9)
+  );
+}
+.card__heading-span--11 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.9),
+    rgba(19, 49, 185, 0.9)
   );
 }
 .card__heading-span--2 {
@@ -1077,7 +1094,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: url("../img/home2.jpg");
+  background-image: url('../img/home2.jpg');
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -1128,24 +1145,24 @@ body {
   }
 }
 .row::after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
-.row [class^="col-"] {
+.row [class^='col-'] {
   float: left;
 }
-.row [class^="col-"]:not(:last-child) {
+.row [class^='col-']:not(:last-child) {
   margin-right: 3rem;
 }
 @media (max-width: 56.25em) {
-  .row [class^="col-"]:not(:last-child) {
+  .row [class^='col-']:not(:last-child) {
     margin-right: 0;
     margin-bottom: 3rem;
   }
 }
 @media (max-width: 56.25em) {
-  .row [class^="col-"] {
+  .row [class^='col-'] {
     width: 100% !important;
   }
 }

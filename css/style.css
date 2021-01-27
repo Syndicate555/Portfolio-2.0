@@ -752,6 +752,9 @@ body {
 .card__picture--10 {
   background-image: linear-gradient(to right bottom, #505050, #b4b4b4);
 }
+.card__picture--14 {
+  background-image: linear-gradient(to right bottom, #505050, #b4b4b4);
+}
 .card__picture--6 {
   background: linear-gradient(to right bottom, #ffffff, #ffffff);
 }
